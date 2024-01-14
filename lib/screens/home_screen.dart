@@ -1,12 +1,15 @@
-import 'flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Safearea(
-      child: Scaffold(
-        appBar: AppBar(title: Text('Home Screen')),
-      )
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home'),
+      ),
+      body: Center(
+        child: Text('Welcome to the Flutter App!'),
+      ),
     );
   }
 }
